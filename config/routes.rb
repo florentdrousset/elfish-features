@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "/up/databases", to: "up#databases", as: :up_databases
   get "/admin", to: "back_office#index"
   get "/articles", to: "articles#index"
+  get "/salut", to: "pages#salut"
 
   # Sidekiq has a web dashboard which you can enable below. It's turned off by
   # default because you very likely wouldn't want this to be available to

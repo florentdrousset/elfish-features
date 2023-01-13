@@ -12,6 +12,10 @@ class PagesController < ApplicationController
     if @age >= 18
       @adult = true
     end
-    
+
+  end
+
+  def salut
+
   end
 end
